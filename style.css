@@ -1,0 +1,55 @@
+body{
+    background-image: url('https://media.gettyimages.com/photos/dynamite-picture-id184854072');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 25%;
+    margin-left: 59%;
+    
+    
+  }
+  
+  #timer {
+    width: 510px;
+    font-size: 70px;
+    background-color: black ;
+    color: limegreen;
+    padding: 25px;
+    border-radius: 10px;
+  }
+  #labels {
+    margin-top: -25px;
+    z-index: 2;
+    color: limegreen;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  #hh {margin-left: 45px;}
+  #mm {margin-left: 80px;}
+  #ss {margin-left: 70px;}
+  #ms {margin-left: 45px;}
+  
+  #controls {
+    margin-left:150px;
+    margin-top: 30px;
+  }
+  
+  button {
+    width: 110px;
+    height: 45px;
+    float: left;
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 100px;
+    box-shadow: 5px 5px 5px #888888;
+  }
+  #go    { background-color: darkblue; color: white; }
+  
+  #stop  { background-color: red; color: white;  display: none; }
+  
+  #clear { background-color: yellow; display: none;}
+  
+  body, button {
+    font-family: 'Courier';
+  }
